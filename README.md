@@ -14,13 +14,14 @@ This project runs two tasks on the dual-core ESP32, each counting in opposite di
 ## 🔧 Hardware Requirements
 - **ESP32 Development Board**
 - **Wi-Fi Network**
-- **MQTT Broker** (Local or Cloud-based)
+- **MQTT Broker** 
 
 ## 📜 Dependencies
 Ensure you have the following Arduino libraries installed:
 - [WiFi](https://www.arduino.cc/reference/en/libraries/wifi/)
 - [PubSubClient](https://github.com/knolleary/pubsubclient) (for MQTT)
 - [NTPClient](https://github.com/arduino-libraries/NTPClient)
+- [wifiUDP]
 
 ## ⚙️ Setup & Configuration
 1. **Clone this repository**
@@ -50,14 +51,3 @@ Publishing: Core0: 2 Time: 12:34:56
 Publishing: Core1: 99 Time: 12:34:56
 ...
 ```
-
-## 🚀 Future Enhancements
-- Add MQTT message handling for remote control
-- Implement an OLED or LCD display for real-time monitoring
-- Store and visualize data using a web dashboard
-
-## 📜 License
-This project is open-source under the **MIT License**.
-
----
-Developed with ❤️ by **[Your Name]**

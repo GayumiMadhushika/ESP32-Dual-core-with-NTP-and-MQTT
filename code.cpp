@@ -4,11 +4,11 @@
 #include <WiFiUdp.h>
 
 // WiFi credentials
-const char *ssid = "Redmi";
-const char *password = "12345678";
+const char *ssid = "your ssid";
+const char *password = "your password";
 
 // MQTT Broker
-const char *mqttServer = "192.168.43.23";
+const char *mqttServer = "IP address";
 const int mqttPort = 1883;
 WiFiClient espClient;
 PubSubClient client(espClient);
